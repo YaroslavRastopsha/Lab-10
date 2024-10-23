@@ -1,2 +1,5 @@
 Yaroslav Rastopsha
 Question: How do you handle exceptions when opening a file in Python?
+Maksym Grigorenko
+Answer: In Python, exceptions are handled using the try-except block.
+Question: What is the difference between lists and tuples in Python?
