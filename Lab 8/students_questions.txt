@@ -1,0 +1,2 @@
+Yaroslav Rastopsha
+Question: How do you handle exceptions when opening a file in Python?
