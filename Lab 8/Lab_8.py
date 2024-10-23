@@ -28,3 +28,22 @@ except Exception as e:
     # Handling any errors that may occur during file operations
     print(f"An error occurred while working with the file: {e}")
 
+# Mark Holovenko - Third Student
+
+# Let's open the file and append my data, answer the previous question, and add a new question
+try:
+    with open('students_questions.txt', 'a', encoding='utf-8') as file:
+        # Writing my last name
+        file.write("Mark Holovenko\n")
+        # Writing the answer to the second student's question
+        file.write("Answer: The difference between lists and tuples is that lists are mutable (can be changed), "
+                   "while tuples are immutable (cannot be changed).\n")
+        # Adding my question for the next student
+        file.write("Question: How do generators work in Python?\n")
+    print("File successfully updated with my data!")
+except Exception as e:
+    # Handling any errors that may occur during file operations
+    print(f"An error occurred while working with the file: {e}")
+
+
+
