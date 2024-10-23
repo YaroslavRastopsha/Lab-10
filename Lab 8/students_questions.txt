@@ -6,3 +6,5 @@ Question: What is the difference between lists and tuples in Python?
 Mark Holovenko
 Answer: The difference between lists and tuples is that lists are mutable (can be changed), while tuples are immutable (cannot be changed).
 Question: How do generators work in Python?
+Roman Uzzhyn
+Answer: Generators in Python are functions that return an iterator which yields items one at a time, only when requested, saving memory compared to storing the entire list in memory.
